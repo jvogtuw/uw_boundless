@@ -7,8 +7,26 @@
     "issues": "https://github.com/jvogtuw/uw_boundless/issues",
     "source": "https://github.com/jvogtuw/uw_boundless"
   },
+  "minimum-stability": "dev",
+  "repositories": {
+    "drupal_org": {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  },
   "require": {
+    "php": ">=8.1",
     "drupal/bootstrap": "^3.0"
   },
-  "minimum-stability": "dev"
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true,
+      "cweagans/composer-patches": true
+    }
+  },
+  "require-dev": {
+    "composer/installers": "^2",
+    "cweagans/composer-patches": "~1.0",
+    "drupal/core-recommended": "^10"
+  }
 }
