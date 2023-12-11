@@ -1,18 +1,12 @@
 {
-  "name": "uw-drupal/uw_boundless",
+  "name": "jvogtuw/uw_boundless",
   "description": "UW Boundless Drupal theme running on Bootstrap 3.",
   "type": "drupal-theme",
   "license": "GPL-2.0-or-later",
   "support": {
-    "issues": "https://github.com/uw-drupal/uw_boundless/issues",
-    "source": "https://github.com/uw-drupal/uw_boundless"
+    "issues": "https://github.com/jvogtuw/uw_boundless/issues",
+    "source": "https://github.com/jvogtuw/uw_boundless"
   },
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://packages.drupal.org/8"
-    }
-  ],
   "require": {
     "drupal/bootstrap": "^3.0"
   },
