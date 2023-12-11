@@ -1,7 +1,7 @@
 {
   "name": "jvogtuw/uw_boundless",
   "description": "UW Boundless Drupal theme running on Bootstrap 3.",
-  "type": "drupal-theme",
+  "type": "drupal-custom-theme",
   "license": "GPL-2.0-or-later",
   "support": {
     "issues": "https://github.com/jvogtuw/uw_boundless/issues",
